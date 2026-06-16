@@ -1,0 +1,11 @@
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+gradio>=4.20.0
+pandas>=2.0.0
+numpy>=1.24.0
+xgboost>=2.0.0
+scikit-learn>=1.3.0  # required by xgboost.XGBClassifier
+httpx>=0.27.0
+apscheduler>=3.10.0
+python-multipart>=0.0.9
+huggingface_hub>=0.22.0
